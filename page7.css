@@ -1,0 +1,76 @@
+.page7{
+    display:flex ;
+    width: 100%;
+
+}
+.page7 .footer{
+height: 10rem;
+margin-left: 10%;
+width: 20%;
+margin-top: auto;
+margin-bottom: auto;
+/* border: 1px solid white; */
+}
+
+.que{
+    margin: auto;
+    text-align: center;
+}
+.page7 .footer ol{
+list-style: none;
+margin: auto;
+gap: 0.6rem;
+}
+.page7 .footer ol li{
+    gap: 0.6rem;
+    margin: 1rem;
+}
+
+.page7 .footer ol li a{
+color: white;
+}
+.page7 .footer ol li a:hover{
+    color: rgb(255, 5, 5);
+    }
+.rotatedi{
+    transform: rotate(45deg);
+}
+.rotatedi{
+    transform: rotate(-45deg);
+}
+
+
+.rotatedj{
+    transform: rotate(45deg);
+}
+.rotatedj{
+    transform: rotate(-45deg);
+}
+
+.rotatedk{
+    transform: rotate(45deg);
+}
+.rotatedk{
+    transform: rotate(-45deg);
+}
+
+.rotatedl{
+    transform: rotate(45deg);
+}
+.rotatedl{
+    transform: rotate(-45deg);
+}
+
+.rotatedm{
+    transform: rotate(45deg);
+}
+.rotatedm{
+    transform: rotate(-45deg);
+}
+
+.rotatedn{
+    transform: rotate(45deg);
+}
+.rotatedn{
+    transform: rotate(-45deg);
+}

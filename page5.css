@@ -1,0 +1,40 @@
+.page5 {
+  display: flex;
+  grid-column: 2;
+}
+.page5-0 {
+  width: 30%;
+  margin: auto;
+}
+
+.page5-0 img {
+  height: 25rem;
+  width: 25rem;
+}
+.page5-1 {
+  margin: auto;
+  width: 30%;
+}
+.heading h1 {
+  font-size: 50px;
+  margin: 1.3rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .page5 {
+    display: block;
+  }
+  .page5-0 img {
+    margin: auto;
+    margin-left: -5rem;
+    height: 20rem;
+    width: 20rem;
+  }
+  .page5-1 {
+    margin: auto;
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+}

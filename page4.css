@@ -1,0 +1,105 @@
+.page4 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  /* border: 1px solid red; */
+}
+
+.page4 .page4-1 {
+  margin: auto;
+  width: 50%;
+}
+
+.page4 .page4-2 {
+  width: 60%;
+  height: auto;
+  align-items: center;
+  margin: auto;
+}
+/* img and video */
+
+
+.tv4 .img-link4 {
+  margin: auto;
+  position: relative;
+  height: 15rem;
+  width: 20rem;
+  /* border: 1px solid red; */
+}
+
+.tv4 .img-link4 img {
+  z-index: 5;
+  position: absolute;
+  margin: auto;
+  margin-left: -5rem;
+
+  height: 150%;
+  width: 150%;
+}
+
+.img-link4 video {
+  margin: auto;
+  height: 14rem;
+  width: 18rem;
+} 
+
+.page4-2 {
+  margin: auto;
+  height: 300px;
+  width: 40vw;
+  /* border: 1px solid red; */
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.page4-2 .page4-2-0 {
+  margin: auto;
+  position: relative;
+  height: 10rem;
+  width: 20rem;
+  /* border: 1px solid red; */
+}
+
+.page4-2 .page4-2-0 img {
+  z-index: 5;
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+}
+
+.page4-2-0 video {
+  margin: auto;
+  height: 200px;
+  width: 400px;
+}
+.page4 .page4-1 h1{
+  margin-left: 3rem;
+  font-size: 45px;
+  align-items: start;
+  text-align: left;
+}
+.page4 .page4-1 p{
+  margin: auto;
+  margin-left: 3rem;
+
+  padding: 0px;
+  text-align: start;
+  font-size: 25px;
+}
+
+
+@media (max-width: 600px) {
+.page4{
+  display: block;
+}
+.page4 .page4-1 {
+  margin: auto;
+  margin-top: 2rem;
+  width: 150%;
+}
+
+}
